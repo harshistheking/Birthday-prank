@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #00bfff, #ff69b4);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.paypal-logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: yellow;
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  background-color: #0070ba;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #005c99;
+}
+
+.loading-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: white;
+  color: #0070ba;
+  font-size: 24px;
+}
+
+.meme {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+}
